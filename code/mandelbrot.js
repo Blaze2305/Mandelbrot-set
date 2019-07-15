@@ -56,7 +56,9 @@ function change_iter(){
 }
 
 function refresh(){
-    draw_mandelbrot(v,w,posa,posb);
+    posa1=createVector(-2,1);
+    posb1=createVector(1,-1);
+    draw_mandelbrot(v,w,posa1,posb1);
 }
 
 function mouseReleased(){
