@@ -58,6 +58,8 @@ function change_iter(){
 function refresh(){
     posa1=createVector(-2,1);
     posb1=createVector(1,-1);
+    x=posa1;
+    y=posb1
     draw_mandelbrot(v,w,posa1,posb1);
 }
 
